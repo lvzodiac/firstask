@@ -1,0 +1,30 @@
+# Build outputs
+/build/
+*.o
+*.obj
+*.elf
+*.hex
+*.bin
+*.map
+*.su
+*.d
+
+# Local debugger settings and source backups
+/debug.jdebug
+/debug.jdebug.user
+/C_board_src/
+
+# Reference manuals kept locally
+/*.pdf
+
+# Editor and operating-system files
+/.vscode/
+/.idea/
+*.swp
+*.tmp
+Thumbs.db
+.DS_Store
+
+# Local credentials
+.env
+.env.*
